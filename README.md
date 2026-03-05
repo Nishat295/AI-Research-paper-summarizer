@@ -17,28 +17,38 @@ Easy to Use – Simple interface to process research papers quickly.
 
 Extracts Key Insights – Highlights important concepts, methods, and conclusions.
 
-Installation
+## Installation
 
-Clone the repository:
+To run this project locally:
 
-git clone https://github.com/yourusername/AI-Research-Paper-Summarizer.git
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YourUsername/Research-paper-summarizer.git
+cd Research-paper-summarizer
+```
 
-Navigate to the project directory:
+### 2. Create a Virtual Environment (Recommended)
+```bash
+python -m venv venv
+# Windows:
+.\venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+```
 
-cd AI-Research-Paper-Summarizer
-
-Install required dependencies:
-
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-Usage
+```
+## Usage
 
-Place the research paper (PDF or text file) in the assets folder.
+Run the application using Streamlit:
 
-Run the summarizer script:
+```bash
+streamlit run app.py
+```
 
-python main.py
-
-The summary will be generated and saved in the output folder.
+The application will launch in your default web browser at `http://localhost:8501`.
 
 Folder Structure
 AI-Research-Paper-Summarizer/
